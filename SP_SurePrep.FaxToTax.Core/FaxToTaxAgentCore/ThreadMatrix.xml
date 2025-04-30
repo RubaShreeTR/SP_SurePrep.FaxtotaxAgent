@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Root>
+	<ThreadDetails>
+		<Range>0-4999</Range>
+		<MinValue>0</MinValue>
+		<MaxValue>4999</MaxValue>
+		<Threshold>5000</Threshold>
+		<Thread>1</Thread>
+	</ThreadDetails>
+	<ThreadDetails>
+		<Range>5000-9999</Range>
+		<MinValue>5000</MinValue>
+		<MaxValue>9999</MaxValue>
+		<Threshold>3350</Threshold>
+		<Thread>3</Thread>
+	</ThreadDetails>
+	<ThreadDetails>
+		<Range>10000-19999</Range>
+		<MinValue>10000</MinValue>
+		<MaxValue>19999</MaxValue>
+		<Threshold>4000</Threshold>
+		<Thread>5</Thread>
+	</ThreadDetails>
+	<ThreadDetails>
+		<Range>20000-39999</Range>
+		<MinValue>20000</MinValue>
+		<MaxValue>39999</MaxValue>
+		<Threshold>5000</Threshold>
+		<Thread>8</Thread>
+	</ThreadDetails>
+	<ThreadDetails>
+		<Range>40000-79999</Range>
+		<MinValue>40000</MinValue>
+		<MaxValue>79999</MaxValue>
+		<Threshold>8000</Threshold>
+		<Thread>10</Thread>
+	</ThreadDetails>
+	<ThreadDetails>
+		<Range>80000-10000000</Range>
+		<MinValue>80000</MinValue>
+		<MaxValue>10000000</MaxValue>
+		<Threshold>10000</Threshold>
+		<Thread>10</Thread>
+	</ThreadDetails>
+</Root>
